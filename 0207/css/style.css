@@ -1,0 +1,13 @@
+.logo, .navigation{
+    text-align: center;
+}
+h1{
+    font: size 24px;;
+    text-align: center;
+}
+li{
+    height: 33px;
+}
+.left{
+    text-align: left;
+}

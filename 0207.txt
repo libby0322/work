@@ -1,0 +1,41 @@
+
+table
+caption
+
+자식으로 tr
+tr 자식으로 th 또는 td를 갖는다.
+
+ico 
+
+1. 클래스 선택자 .
+2. 아이디 선택자 #
+3. 그룹선택 , 표를 이용해서 선택
+4. div.클래스#아이디 <div id="아이디" class="클래스">
+5. div  .클래스 
+
+---------CSS
+
+1.  background-color 바탕화면에 색깔을 입힘.
+
+background-color: 
+        값으로 rgb(254,124,154), #123232;
+
+2.  background-image: 값으로 현재 스타일시트가 위치한 경로부터 이미지의 경로를
+                              url(경로);
+
+3. background-repeat: 값으로는 기본값 repeat
+                             repeat-x, repear-y, norepeat;
+
+4. background-attchment: 값으로
+            scroll - 기본값으로 이미지 요소가 상대적인 위치,
+            fixed - 이미지가 윈도우 창에 상대적인 위치
+	local - 요소의 내용에 상대적인 위치 
+
+--------------------Stylesheet
+
+4개 축약 : top right bottom left
+3개 축약: top left/right bottom
+2개 축약: top/bottom left/right
+1개 축약: top/right/bottom/left
+
+border: 두께 종류 색상
