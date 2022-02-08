@@ -1,0 +1,33 @@
+form 수업
+
+변수와 값.
+
+               x = 5;
+	   y = 3
+	    z = x+y;
+
+-----------
+파일이름.html?
+변수 = 변수값 &
+변수2 = 변수2값 &
+변수3 = 변수3값 & 
+
+form 의 필수 속성값 action, method
+input 의 필수 속성값
+	1. type 2. name 3. value 
+	   추천 속성
+	1. id : 고유값
+	2. placeholde : 박스 안 텍스트
+
+form에서 사용하는 요소들
+      input, label, select, textarea, button, fieldset, legend, datalist, output, option, optgroup
+
+input 타입
+	 1. type=text  : 텍스트
+	 2. type=radio : 속성값. 분류_ex)회사원,백수,학생
+	 3. type=checkbox 
+	 4. type=button 
+	 5. type=reset 
+	 6. type=submit : 전송
+	 7. type=password : 비밀번호값 안보이게
+	
