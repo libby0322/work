@@ -1,0 +1,59 @@
+background-color
+
+background-image
+background-repeat (반복)
+background-attachment (스크롤)
+background-position (위치값)
+
+/*
+background-clip => background-color
+background-origin => background-color
+*/
+background-size => background-image
+		: contain, cover
+
+백그라운드 이미지는 쉼표를 찍어서 여러개를 사용할 수 있다.
+----------------------------------------
+자바스크립트는 객체(Object) 기반언어다.
+
+Method (function 함수)
+- TV      1) 속성(Property):  색상, 크기  
+	2) 메서드(Method):  켜다, 끄다, 볼륨을 높이다.
+
+--------------------
+자바스크립트가 갖고 있는 내장 객체
+
+  - 브라우저 객체 모델(BOM, Browser Object Model)
+  - 문서객체모델(DOM, Document Object Model)
+  - 내장객체 (문자 String, 날짜 Date, 배열 Array, 수학 Math, 정규표현) 객체
+
+  브라우저객체
+	window, screen, location, history, navigator 
+
+  내장객체
+	참조변수 = new 생성함수 ();
+
+
+  var myDay = new Date()  
+
+  -  연도  getFullYear();
+  -  월     getMonth(); + 1;
+  -  일     getDate();
+  -  요일  getDayy();     (0일 ~ 6토)
+  -  시     getHours();
+  -  분     getMinutes();
+  -  초     getSeconds();
+
+  -  밀리초    getMilliseconds();
+
+  - getTime();	  1970년 1월 1일 경과된 시간을 밀리초로 표기.
+  - toGMTString();    GMT 표준 표기 방식으로 문자형 데이터를 반환함.
+  - toLocaleString();  운영 시스템 표기 방식으로 문자형 데이터로 반환함.
+
+    get 정보를 가져올 때
+
+    set  정보를 기록할 때
+
+
+
+  
